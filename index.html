@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloc de noticias | Baloncesto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="cabecera">
+    <a class="logo" href="index.html">Bloc de baloncesto</a>
+    <p>Las noticias de la cancha, en un solo lugar</p>
+  </header>
+
+  <main>
+    <!-- CARRUSEL -->
+    <section class="carrusel" aria-label="Noticias destacadas">
+      <div class="pistas">
+        <article class="slide" id="s1">
+          <img src="https://resources.diariolibre.com/images/2026/10/17/tbs-distrito-bameso-y-mauricio-baez-logran-triunfos-e4efdba9-focus-min0.19-0.39-896-504.jpg" alt="Bameso y Mauricio Báez" referrerpolicy="no-referrer">
+          <div class="slide-texto">
+            <span class="etiqueta">TBS Distrito</span>
+            <h2><a href="noticia-1.html">Bameso y Mauricio Báez logran triunfos en la jornada del TBS Distrito</a></h2>
+            <p>Bameso venció 94-81 a El Millón, con 31 puntos y 16 rebotes de Juan Guerrero.</p>
+          </div>
+        </article>
+
+        <article class="slide" id="s2">
+          <img src="https://resources.diariolibre.com/images/2026/10/14/andres-feliz-y-jean-montero-brillan-en-la-euroliga-feaed65e-focus-min0.16-0.41-896-504.jpg" alt="Andrés Feliz y Jean Montero" referrerpolicy="no-referrer">
+          <div class="slide-texto">
+            <span class="etiqueta">Euroliga</span>
+            <h2><a href="noticia-2.html">Andrés Feliz y Jean Montero brillan en la Euroliga</a></h2>
+            <p>Los dominicanos destacaron en su jornada de la Euroliga.</p>
+          </div>
+        </article>
+
+        <article class="slide" id="s3">
+          <img src="https://resources.diariolibre.com/images/2026/10/11/nba-kyrie-irving-lidera-la-anotacion-de-dallas-en-macao-en-su-regreso-437d38e2-focus-0.18-0.59-896-504.jpg" alt="Kyrie Irving" referrerpolicy="no-referrer">
+          <div class="slide-texto">
+            <span class="etiqueta">NBA</span>
+            <h2><a href="noticia-3.html">NBA: Kyrie Irving lidera la anotación de Dallas en Macao en su regreso</a></h2>
+            <p>Kyrie Irving fue el máximo anotador de Dallas en su regreso a las canchas.</p>
+          </div>
+        </article>
+
+        <article class="slide" id="s4">
+          <img src="https://resources.diariolibre.com/images/2026/06/06/knicks-ponen-frente-al-abismo-a-los-spurs-de-wembanyama-1c2bedd4-focus-min0.1-0.62-896-504.jpg" alt="Wembanyama" referrerpolicy="no-referrer">
+          <div class="slide-texto">
+            <span class="etiqueta">NBA</span>
+            <h2><a href="noticia-4.html">Wembanyama apoya protestas de estudiantes en Francia</a></h2>
+            <p>La estrella de los Spurs mostró su apoyo a las protestas estudiantiles en su país.</p>
+          </div>
+        </article>
+      </div>
+
+      <nav class="puntos">
+        <a href="#s1" aria-label="Noticia destacada 1"></a>
+        <a href="#s2" aria-label="Noticia destacada 2"></a>
+        <a href="#s3" aria-label="Noticia destacada 3"></a>
+        <a href="#s4" aria-label="Noticia destacada 4"></a>
+      </nav>
+    </section>
+
+    <!-- 8 NOTICIAS -->
+    <section class="contenedor">
+      <h2 class="titulo-seccion">Últimas noticias</h2>
+      <div class="rejilla">
+
+        <article class="tarjeta">
+          <a href="noticia-1.html"><img src="https://resources.diariolibre.com/images/2026/10/17/tbs-distrito-bameso-y-mauricio-baez-logran-triunfos-e4efdba9-focus-min0.19-0.39-896-504.jpg" alt="Bameso y Mauricio Báez" referrerpolicy="no-referrer"></a>
+          <div class="tarjeta-cuerpo">
+            <span class="etiqueta">TBS Distrito</span>
+            <h3><a href="noticia-1.html">Bameso y Mauricio Báez logran triunfos en la jornada del TBS Distrito</a></h3>
+            <p>Bameso venció 94-81 a El Millón, con 31 puntos y 16 rebotes de Juan Guerrero.</p>
+            <time>17 de octubre de 2026</time>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <a href="noticia-2.html"><img src="https://resources.diariolibre.com/images/2026/10/14/andres-feliz-y-jean-montero-brillan-en-la-euroliga-feaed65e-focus-min0.16-0.41-896-504.jpg" alt="Andrés Feliz y Jean Montero" referrerpolicy="no-referrer"></a>
+          <div class="tarjeta-cuerpo">
+            <span class="etiqueta">Euroliga</span>
+            <h3><a href="noticia-2.html">Andrés Feliz y Jean Montero brillan en la Euroliga</a></h3>
+            <p>Los dominicanos destacaron en su jornada de la Euroliga.</p>
+            <time>13 de octubre de 2026</time>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <a href="noticia-3.html"><img src="https://resources.diariolibre.com/images/2026/10/11/nba-kyrie-irving-lidera-la-anotacion-de-dallas-en-macao-en-su-regreso-437d38e2-focus-0.18-0.59-896-504.jpg" alt="Kyrie Irving" referrerpolicy="no-referrer"></a>
+          <div class="tarjeta-cuerpo">
+            <span class="etiqueta">NBA</span>
+            <h3><a href="noticia-3.html">NBA: Kyrie Irving lidera la anotación de Dallas en Macao en su regreso</a></h3>
+            <p>Kyrie Irving fue el máximo anotador de Dallas en su regreso a las canchas.</p>
+            <time>11 de octubre de 2026</time>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <a href="noticia-4.html"><img src="https://resources.diariolibre.com/images/2026/06/06/knicks-ponen-frente-al-abismo-a-los-spurs-de-wembanyama-1c2bedd4-focus-min0.1-0.62-896-504.jpg" alt="Wembanyama" referrerpolicy="no-referrer"></a>
+          <div class="tarjeta-cuerpo">
+            <span class="etiqueta">NBA</span>
+            <h3><a href="noticia-4.html">Wembanyama apoya protestas de estudiantes en Francia</a></h3>
+            <p>La estrella de los Spurs mostró su apoyo a las protestas estudiantiles en su país.</p>
+            <time>9 de octubre de 2026</time>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <a href="noticia-5.html"><img src="https://resources.diariolibre.com/images/2026/09/28/draymond-green-impresionado-con-yaxel-lendeborg-c8fdf675-focus-min0.06-0.51-896-504.jpg" alt="Draymond Green y Yaxel Lendeborg" referrerpolicy="no-referrer"></a>
+          <div class="tarjeta-cuerpo">
+            <span class="etiqueta">NBA</span>
+            <h3><a href="noticia-5.html">Draymond Green, impresionado con Yaxel Lendeborg</a></h3>
+            <p>El veterano Draymond Green elogió el nivel del joven Yaxel Lendeborg.</p>
+            <time>28 de septiembre de 2026</time>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <a href="noticia-6.html"><img src="https://resources.diariolibre.com/images/2026/09/28/tbs-distrito-los-prados-y-san-lazaro-mantienen-el-invicto-f7ae94dc-focus-0.04-0.43-896-504.jpg" alt="Los Prados y San Lázaro" referrerpolicy="no-referrer"></a>
+          <div class="tarjeta-cuerpo">
+            <span class="etiqueta">TBS Distrito</span>
+            <h3><a href="noticia-6.html">TBS Distrito: Los Prados y San Lázaro mantienen el invicto</a></h3>
+            <p>Los Prados y San Lázaro siguen sin perder en el TBS Distrito.</p>
+            <time>28 de septiembre de 2026</time>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <a href="noticia-7.html"><img src="https://resources.diariolibre.com/images/2026/09/12/mundial-de-baloncesto-gabby-williams-guia-a-francia-ante-alemania-1a1b0978-focus-0.13-0.43-896-504.jpg" alt="Gabby Williams" referrerpolicy="no-referrer"></a>
+          <div class="tarjeta-cuerpo">
+            <span class="etiqueta">Mundial de baloncesto</span>
+            <h3><a href="noticia-7.html">Mundial de baloncesto: Gabby Williams guía a Francia ante Alemania</a></h3>
+            <p>Gabby Williams fue la líder de Francia en su partido contra Alemania.</p>
+            <time>12 de septiembre de 2026</time>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <a href="noticia-8.html"><img src="https://resources.diariolibre.com/images/2026/08/17/mundial-2027-horford-y-towns-lideran-convocatoria-clasificatoria-df3765a2-focus-min0.08-0.19-896-504.jpg" alt="Horford y Towns" referrerpolicy="no-referrer"></a>
+          <div class="tarjeta-cuerpo">
+            <span class="etiqueta">Selección</span>
+            <h3><a href="noticia-8.html">Mundial 2027: Horford y Towns lideran convocatoria clasificatoria</a></h3>
+            <p>Al Horford y Karl-Anthony Towns encabezan la lista de convocados para la fase clasificatoria.</p>
+            <time>16 de agosto de 2026</time>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>Noticias y fotos: Diario Libre. Proyecto de clase en HTML y CSS.</p>
+  </footer>
+</body>
+</html>
